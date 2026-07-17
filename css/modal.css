@@ -71,8 +71,7 @@ margin-bottom: 4px;
     padding-left: 38px;
     width: 100%;
     border: 1px solid #2E2F42;    
-    transition: border-color 250ms ease-in-out;
-    outline: transparent;
+    transition: border-color 250ms ease-in-out;    
 }
 .form-icon {
     fill: currentColor;
@@ -165,7 +164,7 @@ height: 12px;
 .checkbox:checked + .checkbox-label .icon-checkbox {
 opacity: 1;
 }
-.form-input:focus + .form-icon {
+.form-input:focus .form-icon {
     fill: #4D5AE5;
 }
 .modal-button:hover,

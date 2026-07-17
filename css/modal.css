@@ -171,7 +171,7 @@ opacity: 1;
 .modal-button:focus {
     background-color: #404BBF;
 }
-.modal-button:hover .icon-cross, 
+.modal-button:hover + .icon-cross, 
 .modal-button:focus .icon-cross {
     fill: #fff;
 }

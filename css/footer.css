@@ -82,3 +82,60 @@
 .container-social-link {
   margin-left: 120px;
 }
+.footer-form-label {
+display: block;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+}
+.footer-form-subscrib {
+    display: flex;
+    gap: 24px;
+    margin-left: 83px;
+    align-items: flex-end;
+
+}
+
+.footer-form-label {
+    margin-bottom: 16px;
+}
+.footer-form-input::placeholder {
+    opacity: 1;
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.16667;
+letter-spacing: 0.04em;
+color: #fff;
+
+} 
+.footer-form-input {
+border: 1px solid #fff;
+border-radius: 4px;
+padding: 8px 16px;
+width: 264px;
+height: 40px;
+background-color: transparent;
+padding: 13px 212px 13px 16px;
+}
+.submit-footer-button {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+border-radius: 4px;
+padding: 8px 24px;
+width: 165px;
+height: 40px;
+max-width: 165px;
+background: #4d5ae5;
+}

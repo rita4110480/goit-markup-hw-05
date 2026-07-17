@@ -164,14 +164,18 @@ height: 12px;
 .checkbox:checked + .checkbox-label .icon-checkbox {
 opacity: 1;
 }
-.form-input:focus .form-icon {
+.form-input:focus + .form-icon {
     fill: #4D5AE5;
 }
+.form-input:focus {
+outline: none;
+}
+
 .modal-button:hover,
 .modal-button:focus {
     background-color: #404BBF;
 }
-.modal-button:hover + .icon-cross, 
+.modal-button:hover .icon-cross, 
 .modal-button:focus .icon-cross {
     fill: #fff;
 }

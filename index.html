@@ -502,17 +502,31 @@
           </div>
         </div>
         <div class="form-field">
-          <label  class="form-label" for="comment">Comment</label>
-          <textarea class="form-textarea" 
+          <label  class="form-label" for="comment">
+            Comment
+          </label>
+          <textarea 
+          class="form-textarea" 
           name="comment"
           placeholder="Text input" 
           id="comment">            
           </textarea>
         </div>
         <div class="checkbox-field">
-          <input class="checkbox" type="checkbox">
-          <label class="checkbox-label"  for="">
-            <a href=""></a>
+          <input 
+          class="checkbox" 
+          type="checkbox" 
+          id="user-privacy" 
+          value="true" 
+          name="user-privacy">
+          <label class="checkbox-label"  for="user-privacy">
+            <span>
+              <svg class="icon-checkbox" width="16px" height="16px">
+                <use href="./images/icons.svg#checkbox"></use>
+              </svg>
+            </span>
+           <span>I accept the terms and conditions of the
+            <a href="#" class="privacy-link">Privacy Policy</a></span>
           </label>
         </div>
         <button class="submit-button" type="submit">Send</button>

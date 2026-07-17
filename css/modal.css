@@ -11,15 +11,16 @@
     background: rgba(46, 47, 66, 0.4);
     z-index: 999;
     
-
     }
     .modal-overlay.is-open {
-        
-
+        opacity: 1;
+        pointer-events: auto;
     }
-.modal {    
+.modal { 
+display: flex; 
+flex-direction: column;  
 border-radius: 4px;
-padding: 24px;
+padding: 72px 24px 24px;
 width: 408px;
 max-height: 80vh;
 overflow-y: auto;
@@ -59,48 +60,76 @@ margin-bottom: 16px;
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: 360px;
-    
-   
+    width: 360px; 
+  
 }
 .form-field {
-    width: 360px;
-    
+    width: 100%;    
     margin-bottom: 8px;
 }
 .form-label {
+display: block;
 font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 12px;
 line-height: 1.16;
 letter-spacing: 0.04em;
 color: #8E8F99;
+margin-bottom: 4px;
 }
 .input-wrapper {
     position: relative;
+    width: 100%;
 }
 .form-input {
     padding-left: 38px;
-
+    width: 100%;
+    border: 1px solid #2E2F42;    
+    transition: border-color 250ms ease-in-out;
 }
 .form-icon {
+    fill: currentColor;
 }
 .form-textarea {
+font-weight: 400;
+font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.04em;
+color: #2E2F42;
+width: 100%;
+resize: none;
+overflow-y: auto;
 }
 .checkbox-field {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 .checkbox {
 }
-.checkbox-label {
+.checkbox-label {    
+    font-weight: 400;
+font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.04em;
+color: #8E8F99;
+}
+.privacy-link {
+color: #4D5AE5;
+text-decoration: underline;
 }
 .submit-button {
+display: block;
+margin: 24px auto 0;
 border-radius: 4px;
 padding: 16px 32px;
 width: 169px;
 height: 56px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4d5ae5;
+color: #fff;
 }
+
 .form-icon {
  position: absolute;
  left: 19px;
@@ -112,9 +141,9 @@ width: 8px;
 height: 8px;
 }
 .icon-man {
-
 width: 12px;
 height: 12px;
+
 }
 .icon-phone {
 width: 13px;
@@ -123,4 +152,32 @@ height: 13px;
 .icon-tick {
 width: 15px;
 height: 12px;
+} 
+    .modal-overlay.is-open {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    .submit-button:hover,
+    .submit-button:focus {
+        background-color: #404BBF;
+        color: #fff;
+    }
+.input-wrapper:hover .form-input,
+.input-wrapper:focus-within .form-input {
+  border-color: #404BBF;  
+}
+
+.input-wrapper:hover .form-icon,
+.input-wrapper:focus-within .form-icon {
+     fill: #404BBF; 
+}    
+
+.icon-cross:hover .form-icon,
+.icon-cross:focus-within .form-icon {
+    fill: #404BBF;
+}
+
+.icon-checkbox:hover,
+.icon-checkbox:focus {
+    color: #404BBF; 
 }

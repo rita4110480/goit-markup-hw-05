@@ -15,5 +15,8 @@
         <symbol id="plane" viewBox="0 0 24 20" fill="none">
             <path fill="currentColor" d="M24 0 0 11.25l7.6699 2.3672L19.5 4.375 10.5017 14.4913l73e-4 23e-4-9e-3-23e-4V20l4.3013-4.1817 5.4488 1.6817z" />
         </symbol>
+         <symbol id="Checkbox" viewBox="0 0 16 16" fill="none">
+            <rect stroke="currentColor" stroke-opacity="0.4" width="15" height="15" rx="1.5" x="0.5" y="0.5" />
+        </symbol>
     </defs>
 </svg>

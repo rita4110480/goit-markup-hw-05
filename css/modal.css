@@ -10,8 +10,7 @@
     background: #fff;
     background: rgba(46, 47, 66, 0.4);
     z-index: 999;
-     
-    }
+      
     .modal-overlay.is-open {
         opacity: 1;
         pointer-events: auto;
@@ -194,5 +193,12 @@ top: 24px;
 right: 24px;
 
  }
+ .checkbox:checked + .checkbox-label > .checkbox-span {
+    background-color:  #404BBF;
+    border: 0;
+    fill: #f4f4fd;
+ }
+
+ 
 
 

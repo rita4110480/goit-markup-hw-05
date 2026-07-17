@@ -91,12 +91,16 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
 }
-.footer-form-subscrib {
-    display: flex;
-    gap: 24px;
-    margin-left: 83px;
-    align-items: flex-end;
+.footer-form {
+display: flex;
+    gap: 24px;    
+    align-items: center;
 
+}
+.footer-form-subscrib {
+display: flex;
+flex-direction: column;
+   margin-left: 83px;
 }
 
 .footer-form-label {

@@ -56,7 +56,9 @@ max-width: 360px;
     background: #e7e9fc;
     position: absolute;
     top: 24px;
-    right: 24px;    
+    right: 24px; 
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property:  background-color, stroke;      
 }
 
 .modal-button:hover,
@@ -79,13 +81,12 @@ max-width: 360px;
       border-radius: 4px;
       padding: 8px 38px;
       outline: none;
-      transition: 250ms ease-in-out;
-      transition-property: border-color;
-      
+      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition-property: border-color;     
     }  
     
     .form-label {
-    display: block;
+    display: block; 
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -105,7 +106,7 @@ max-width: 360px;
      top: 50%;
      transform: translateY(-50%);
      stroke: #2E2F42;
-     transition: 250ms ease-in-out;
+     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: stroke;
     }
     .form-input:focus + .form-icon {
@@ -138,7 +139,7 @@ color: #8E8F99;
 }
 .form-textarea:focus {
     border-color: #404BBF;
-    transition: 250ms ease-in-out;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 transition-property: border-color;
 
 }
@@ -161,7 +162,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 border: none;
- transition: 250ms ease-in-out;
+ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
+;
 transition-property:  background-color;
 
 }
@@ -202,7 +204,7 @@ border-radius: 2px;
 border: 1px solid rgba(46, 47, 66, 0.4);
 cursor: pointer;
 color: transparent;
-transition: 250ms ease-in-out;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 transition-property:  background-color, border-color, color;
 
 }
@@ -213,10 +215,11 @@ transition-property:  background-color, border-color, color;
     border-radius: 2px;
     border-color: 1px solid #404bbf;
     color: #f4f4fd;
+    
  }
  
 .icon-check-mark {
-    fill: currentColor;
+    fill: currentColor;   
 }
 .privacy-link {
 color: #4D5AE5;

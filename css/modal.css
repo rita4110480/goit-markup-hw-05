@@ -213,7 +213,7 @@ transition-property:  background-color, border-color, color;
  .checkbox:checked + .modal-form-agreement-wrapper > .modal-form-agreement-checkbox {
     background-color:  #404BBF;  
     border-radius: 2px;
-    border-color: 1px solid #404bbf;
+    border: 1px solid #404bbf;
     color: #f4f4fd;
     
  }

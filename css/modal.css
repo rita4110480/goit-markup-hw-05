@@ -222,6 +222,7 @@ transition-property:  background-color, border-color, color;
  }
  
 .icon-check-mark {
+    fill: #fff;
     opacity: 0;   
 }
 .privacy-link {

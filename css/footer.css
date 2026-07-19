@@ -136,7 +136,7 @@ color: #fff;
 }
 
 .footer-form-input:focus {
-  border: #31d0aa;
+  border-color: #31d0aa;
 }
 
 .submit-footer-button {
@@ -162,6 +162,7 @@ border: none;
  transition-property:  background-color; 
 }
 
+.submit-footer-button:hover,
 .submit-footer-button:focus {
   background-color: #31d0aa;
 }

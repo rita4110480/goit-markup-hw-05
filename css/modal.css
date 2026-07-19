@@ -104,8 +104,7 @@ max-width: 360px;
      position: absolute;
      left: 19px;
      top: 50%;
-     transform: translateY(-50%);
-     stroke: #2E2F42;
+     transform: translateY(-50%);     
      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: stroke;
     }
@@ -217,9 +216,13 @@ transition-property:  background-color, border-color, color;
     color: #f4f4fd;
     
  }
+
+ .checkbox:checked + .modal-form-agreement-wrapper > .modal-form-agreement-checkbox > .icon-check-mark {
+ opacity: 1;
+ }
  
 .icon-check-mark {
-    fill: currentColor;   
+    opacity: 0;   
 }
 .privacy-link {
 color: #4D5AE5;
